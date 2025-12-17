@@ -64,7 +64,7 @@ function AboutUsPage() {
                 <div className='flex items-center flex-col p-4 gap-4 w-[1335px]'>
                     <div className='flex justify-between w-full'>
                         <div className='flex flex-col gap-4'>
-                        <img src="public/assets/movie.png" className="h-auto self-start" />
+                        <img src="/assets/movie.png" className="h-auto self-start" />
                             <a href='https://github.com/jueeeeeen/Movie-Web-Crawler-frontend' target="_blank" rel="noopener noreferrer">
                             <button className="px-4 h-14 self-end bg-sunglox text-main-red text-2xl rounded-full font-extrabold hover:cursor-pointer group relative overflow-hidden active:scale-[98%]">
                                     <span className="inline-block transition-transform duration-300 group-hover:-translate-y-0.5">
@@ -74,11 +74,11 @@ function AboutUsPage() {
                             </a>
                         </div>
                         <div className='relative'>
-                            <img src="public/assets/about-us-background.png" className="w-80 h-auto object-cover" />
+                            <img src="/assets/about-us-background.png" className="w-80 h-auto object-cover" />
                             <h1 className='font-bold text-4xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 whitespace-nowrap'>ABOUT US</h1>
                         </div>
                         <div className='flex flex-col gap-4'>
-                        <img src="public/assets/movie.png" className="h-auto self-start" />
+                        <img src="/assets/movie.png" className="h-auto self-start" />
                             <a href='https://github.com/SrmxKub/TopMoviesCrawler_Backend' target="_blank" rel="noopener noreferrer">
                             <button className="px-4 h-14 self-end bg-sunglox text-main-red text-2xl rounded-full font-extrabold hover:cursor-pointer group relative overflow-hidden active:scale-[98%]">
                                     <span className="inline-block transition-transform duration-300 group-hover:-translate-y-0.5">

@@ -23,7 +23,7 @@ const MemberCard = ({ name, studentId, text }: MemberCardType) => {
             >
             <div className='absolute w-full h-full backface-hidden flex flex-col items-center justify-center bg-white rounded-2xl shadow-md'>
                 <img 
-                    src={`../../public/member/${studentId}.jpg`} 
+                    src={`/member/${studentId}.jpg`} 
                     alt={name} 
                     className="w-48 h-48 object-cover rounded-2xl"
                 />

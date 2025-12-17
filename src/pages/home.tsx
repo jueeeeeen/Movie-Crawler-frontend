@@ -46,7 +46,7 @@ function Home() {
                 <div className='relative rounded-lg bg-floral-white w-[260px] h-[590px] py-3 px-4'>
                     <img
                         className="absolute inset-0 scale-[104%] z-0"
-                        src="public/assets/filter-border.svg"
+                        src="/assets/filter-border.svg"
                     />
                     <div className='flex justify-between items-center'>
                         <span className='relative block text-2xl font-bold text-black pb-3'>Category Filter</span>
@@ -76,12 +76,12 @@ function Home() {
                 <div className="relative rounded-lg w-[1080px] h-[75px] bg-floral-white flex justify-center items-center p-4">
                     <img
                         className="absolute scale-[101%] z-0"
-                        src="public/assets/search-bar-border.svg"
+                        src="/assets/search-bar-border.svg"
                         draggable="false"
                     />
                     <img
                         className="scale-[90%] pr-2 pb-2"
-                        src="public/assets/search-icon.svg"
+                        src="/assets/search-icon.svg"
                         draggable="false"
                     />
                     <input
@@ -98,7 +98,7 @@ function Home() {
                         <span className='text-4xl font-bold text-floral-white'>Start Crawling!!</span>
                         <img
                             className="absolute top-0 scale-[102%]"
-                            src="public/assets/crawl-button-border.svg"
+                            src="/assets/crawl-button-border.svg"
                         />
                     </button>
                 </div>
