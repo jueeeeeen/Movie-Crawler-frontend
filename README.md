@@ -1,12 +1,48 @@
-# React + Vite
+# 📽️ Movie Crawler
+A web application that crawls movie data from Rotten Tomatoes and displays detailed information including ratings, casts, and more, allowing users to search and filter movies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🖼️ Demo
+#### 📺 Demo Video  
+[![Watch the demo](https://img.youtube.com/vi/rw504A-p540/0.jpg)](https://youtu.be/rw504A-p540)
 
-Currently, two official plugins are available:
+![screenshot](./docs/home.png)
+![screenshot](./docs/movie-list.png)
+![screenshot](./docs/movie-detail.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React
+- Typescript
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## ✨ Features
+- **Crawl Movies** - Crawl movies according to search filters.
+- **Movie Details** - View movie overview, ratings from websites and top casts.
+- **Export to CSV** - Export crawled movies to csv file.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Installation
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/jueeeeeen/Movie-Crawler-frontend.git
+   ```
+2. Navigate into the frontend folder
+    ```bash
+   cd Movie-Crawler-frontend
+   ```
+3. Install dependencies
+    ```bash
+   npm install
+   ```
+## 🔗 Backend API
+>This frontend works with the backend API available at:
+>https://github.com/SrmxKub/TopMoviesCrawler_Backend
+
+## 🚀 How to Run
+1. Run the project
+    ```
+    npm run dev
+    ``` 
+2. Open your browser and visit
+
+    ```
+    http://127.0.0.1:5173/
+    ```
