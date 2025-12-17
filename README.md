@@ -12,6 +12,7 @@ A web application that crawls movie data from Rotten Tomatoes and displays detai
 ## 🛠️ Tech Stack
 - React
 - Typescript
+- Vite
 - Tailwind CSS
 
 ## ✨ Features
