@@ -8,7 +8,7 @@ type NavbarProps = {
 function Navbar({page, crawled}: NavbarProps) {
     return (
         <div className="w-full">
-            <nav className="px-16 bg-main-red w-full h-[120px] items-center justify-between flex">
+            <nav className="px-16 bg-main-red w-full h-[120px] items-center justify-between flex fixed z-40">
                 <Link 
                     className="font-bold items-center flex gap-7"
                     to="/">
@@ -28,7 +28,7 @@ function Navbar({page, crawled}: NavbarProps) {
                     </Link>
                 </div>
             </nav>
-            <div className="bg-[url('public/assets/curtain.png')] w-full h-[350px] top-10 bg-cover bg-center absolute z-[-100]"></div>
+            <div className=" bg-[url('public/assets/curtain.png')] w-full h-[350px] top-10 bg-cover bg-center absolute z-[-100]"></div>
         </div>
     )
 }
